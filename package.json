@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
     "start": "echo \"Error: no start specified\" && exit 0",
-    "lint": "eslint \"./**/*.js\"",
-    "deploy": "now -e NODE_ENV=development -e DEV=@dev_secret",
+    "lint": "eslint --ignore-path .gitignore .",
+    "deploy": "now -e NODE_ENV=development --token=\"$dev_secret\"",
     "build": "echo \"Error: no build specified\" && exit 0"
   },
   "repository": {
