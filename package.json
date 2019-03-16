@@ -1,0 +1,23 @@
+{
+  "name": "nodelessons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "echo \"Error: no start specified\" && exit 1",
+    "lint": "echo \"Error: no lint specified\" && exit 1",
+    "deploy": "echo \"Error: no deploy specified\" && exit 1",
+    "build": "echo \"Error: no build specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlinaLadybug/nodeLessons.git"
+  },
+  "author": "Alina Striltsova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlinaLadybug/nodeLessons/issues"
+  },
+  "homepage": "https://github.com/AlinaLadybug/nodeLessons#readme"
+}
